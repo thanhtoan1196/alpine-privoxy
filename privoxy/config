@@ -2462,4 +2462,3 @@ socket-timeout 300
 #
 #
 #
-forward-socks5t   / hndc1.proxyno1.com:31291 .
