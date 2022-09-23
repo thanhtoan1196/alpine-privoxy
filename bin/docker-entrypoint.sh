@@ -11,6 +11,14 @@ then
   fi
 fi
 
+if [ $HTTP_IP ];
+then
+  if [ $HTTP_PORT ];
+  then
+    echo "forward   / "$HTTP_IP":"$HTTP_PORT"" >> /etc/privoxy/config
+  fi
+fi
+
 if [ $I2PIP ];
 then
   if [ $I2PPORT ];
