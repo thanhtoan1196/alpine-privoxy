@@ -771,6 +771,11 @@ support./(.*/)?track
 /HG\?hc=
 .visistat.com
 .google-analytics./
+.gstatic.com
+consent.google.com
+apis.google.com
+play.google.com
+www.youtube.com
 .overture.
 .doubleclick.net/adi
 .doubleclick.net/(.*/)?adj/
