@@ -14,3 +14,12 @@ Sample command
 ```bash
 docker run -d -p 8118:8118 -e SOCKS5IP=10.5.0.5 -e SOCKS5PORT=9050 -e I2PIP=10.5.0.5  -e I2PPORT=4444 danielguerra/alpine-privoxy
 ```
+
+Haproxy
+```
+docker run \
+   -v $(pwd):/usr/local/etc/haproxy:ro \
+   -p 81:80 \
+   -p 8404:8404 \
+   haproxytech/haproxy-alpine:2.7.1
+```
